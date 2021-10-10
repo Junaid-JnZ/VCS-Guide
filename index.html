@@ -31,20 +31,33 @@
     <center><img src ="./Images/Commands.png" alt = " Provided Commands "  width="600px" height="400px"></center>
 
     <h2 style="margin: 40px"> Local Repository </h2>
-    <p style="color:white; margin: 40px;">Create a folder and add a file in it. <b>Git init</b> command will initialize it with git locally</b></p>
-    <img src ="./Images/push.png" alt = " Commands "  float = "right"width="600px" height="400px">
-    <pre style="float: left; margin: 40px; color: white;">
-        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git remote add origin</b><br>
-        This command will connect your local Repository to online one.<br>
-        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git add .</b><br>
-        This command will keep track of all files of current directory<br>
-        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git commit -m "message" </b><br>
-        This command will commit new changes with specific message<br>
-        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git branch -M main</b><br>
-        This command will create branch main as by default branch is main<br>
-        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git push -u origin main</b><br>
-        This command will create online branch main and push your local changes to online Repository <br>
+    <p style="color:white; margin: 40px;">Create a folder and add a file in it. <b style="color: black;">Git init</b> command will initialize it with git locally</b></p>
+    <img src ="./Images/push.png" alt = " Commands "  float = "right" width="600px" height="400px">
+    <pre style="float: left; margin: 40px; color: white;">  
+        <h2 style="margin: 40px ; color: black;"> Online Repository </h2> 
+        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git remote add origin</b>
+        This command will connect your local Repository to online one.
+        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git add .</b>
+        This command will keep track of all files of current directory
+        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git commit -m "message" </b>
+        This command will commit new changes with specific message
+        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git branch -M main</b>
+        This command will create branch main as by default branch is main
+        <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git push -u origin main</b>
+        This command will create online branch main and push your local changes to online Repository 
     </pre>
-
+    <h2 style="margin: 40px ;color: black; text-align: left;"> Branches </h2>
+    <pre style="float: left; margin: 40px; color: white;" >
+    <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git branch</b><hr>
+    This command will show list of branches and current branch with * symbol<br>
+    <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git branch new_name</b><hr>
+    This command will create new branch with provided name<br>
+    <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px">git checkout branch_name</b><hr>
+    This command will shift to branch of provided name<br>
+    <b style="color: black; font-family: 'Courier New', Courier, monospace; font-size: 18px;">git push --set-upstream origin new_branch</b><hr>
+    This command will create new branch online and push changes to it
+</pre>
+<img src ="./Images/Branches.png" alt = " Branches "  float = "right"width="600px" height="400px">
 </body>
 </html>
+
